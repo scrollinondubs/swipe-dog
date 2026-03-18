@@ -116,6 +116,13 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@theme inline {
+  --color-coral: #E8967D;
+  --color-coral-light: #F2B5A5;
+  --color-pink: #FDE8E0;
+  --color-pink-light: #FFF5F2;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

@@ -1,0 +1,148 @@
+import { DogProfile } from "@/types/dog";
+
+export const mockDogs: DogProfile[] = [
+  {
+    id: "1",
+    name: "Bella",
+    age: 3,
+    breed: "Labrador Mix",
+    size: "Large",
+    description:
+      "Bella is an energetic and friendly dog who loves long walks and playing fetch. She gets along great with kids and other dogs. She's house-trained and knows basic commands.",
+    imageUrl: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s1",
+      name: "Happy Tails Rescue",
+      location: "New York, NY",
+      phone: "(555) 123-4567",
+      email: "info@happytails.org",
+    },
+    traits: ["Friendly", "Energetic", "Good with kids"],
+  },
+  {
+    id: "2",
+    name: "Max",
+    age: 2,
+    breed: "Golden Retriever",
+    size: "Large",
+    description:
+      "Max is a gentle giant who loves nothing more than cuddling on the couch. He's great with families and has a calm temperament.",
+    imageUrl: "https://images.unsplash.com/photo-1633722715463-d30f4f325e24?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s2",
+      name: "Paws & Love Shelter",
+      location: "Brooklyn, NY",
+      phone: "(555) 234-5678",
+      email: "adopt@pawslove.org",
+    },
+    traits: ["Gentle", "Calm", "Loyal"],
+  },
+  {
+    id: "3",
+    name: "Luna",
+    age: 1,
+    breed: "Husky",
+    size: "Medium",
+    description:
+      "Luna is a playful and adventurous husky who loves the outdoors. She needs an active owner who enjoys hiking and running.",
+    imageUrl: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s3",
+      name: "Northern Rescue",
+      location: "Queens, NY",
+      phone: "(555) 345-6789",
+      email: "hello@northernrescue.org",
+    },
+    traits: ["Playful", "Adventurous", "Vocal"],
+  },
+  {
+    id: "4",
+    name: "Charlie",
+    age: 5,
+    breed: "Beagle",
+    size: "Medium",
+    description:
+      "Charlie is a sweet and mellow beagle who loves sniffing around the park. He's well-trained and does great on a leash.",
+    imageUrl: "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s1",
+      name: "Happy Tails Rescue",
+      location: "New York, NY",
+      phone: "(555) 123-4567",
+      email: "info@happytails.org",
+    },
+    traits: ["Sweet", "Mellow", "Curious"],
+  },
+  {
+    id: "5",
+    name: "Daisy",
+    age: 4,
+    breed: "French Bulldog",
+    size: "Small",
+    description:
+      "Daisy is a charming little Frenchie who loves attention. She's perfect for apartment living and enjoys short walks and lots of naps.",
+    imageUrl: "https://images.unsplash.com/photo-1583337130417-13571c51e503?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s4",
+      name: "City Pups Rescue",
+      location: "Manhattan, NY",
+      phone: "(555) 456-7890",
+      email: "adopt@citypups.org",
+    },
+    traits: ["Charming", "Affectionate", "Low energy"],
+  },
+  {
+    id: "6",
+    name: "Rocky",
+    age: 2,
+    breed: "German Shepherd",
+    size: "Large",
+    description:
+      "Rocky is a smart and loyal German Shepherd looking for a dedicated owner. He excels at obedience training and loves having a job to do.",
+    imageUrl: "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s2",
+      name: "Paws & Love Shelter",
+      location: "Brooklyn, NY",
+      phone: "(555) 234-5678",
+      email: "adopt@pawslove.org",
+    },
+    traits: ["Smart", "Loyal", "Trainable"],
+  },
+  {
+    id: "7",
+    name: "Coco",
+    age: 6,
+    breed: "Poodle Mix",
+    size: "Small",
+    description:
+      "Coco is a hypoallergenic sweetheart who loves everyone she meets. She's great for first-time dog owners and adapts easily to new environments.",
+    imageUrl: "https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s3",
+      name: "Northern Rescue",
+      location: "Queens, NY",
+      phone: "(555) 345-6789",
+      email: "hello@northernrescue.org",
+    },
+    traits: ["Hypoallergenic", "Friendly", "Adaptable"],
+  },
+  {
+    id: "8",
+    name: "Duke",
+    age: 3,
+    breed: "Pit Bull Mix",
+    size: "Large",
+    description:
+      "Duke is a misunderstood sweetheart with the biggest smile. He loves belly rubs, playing tug-of-war, and being the center of attention.",
+    imageUrl: "https://images.unsplash.com/photo-1541599540903-216a46ab5b3d?w=800&h=1000&fit=crop",
+    shelter: {
+      id: "s4",
+      name: "City Pups Rescue",
+      location: "Manhattan, NY",
+      phone: "(555) 456-7890",
+      email: "adopt@citypups.org",
+    },
+    traits: ["Affectionate", "Playful", "Goofy"],
+  },
+];
