@@ -2,7 +2,7 @@
 #
 # Git Worktree Cleanup Script
 # Project: SwipeDog
-# Generated: 2026-03-18T19:33:12.687Z
+# Generated: 2026-03-18T19:35:37.472Z
 #
 # This script removes all worktrees created by the setup script.
 #
